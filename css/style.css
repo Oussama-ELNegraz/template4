@@ -992,9 +992,15 @@ body > footer .container > ul li ul:last-of-type li i {
   font-size: 25px;
 }
 body > footer .container > ul li ul:last-of-type li:first-of-type i {
-  color: #4267b2;
+  color: #F00;
 }
 body > footer .container > ul li ul:last-of-type li:nth-of-type(2) i {
+  color: #00F;
+}
+body > footer .container > ul li ul:last-of-type li:nth-of-type(3) i {
+  color: #4267b2;
+}
+body > footer .container > ul li ul:last-of-type li:nth-of-type(4) i {
   color: #008ee8;
 }
 body > footer .container > ul li ul:last-of-type li:last-of-type i {
@@ -1021,7 +1027,6 @@ body > footer .container > ul li ul li a:hover {
     padding: 0;
   }
   body > footer .container > ul {
-    width: 800px;
     flex-direction: row;
     justify-content: space-between;
   }
