@@ -164,6 +164,7 @@ body > header nav ul {
   display: none;
   padding-left: 30px;
   padding-right: 30px;
+  z-index: 100;
 }
 @media screen and (min-width: 1200px) {
   body > header nav ul,
